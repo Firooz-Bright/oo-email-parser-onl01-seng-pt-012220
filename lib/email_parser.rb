@@ -16,7 +16,7 @@ class EmailParser
     csv_emails.split.collect do |email_array|
       email_array.split(',') 
     end
-    email_array.flatten.uniq 
+   return email_array.flatten.uniq 
   end 
    
    
