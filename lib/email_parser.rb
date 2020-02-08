@@ -19,5 +19,4 @@ class EmailParser
    return email_array.flatten.uniq 
   end 
    
-   
 end   
