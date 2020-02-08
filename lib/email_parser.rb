@@ -17,6 +17,5 @@ class EmailAddressParser
       add.split(',').flatten.unique
     end
     
-  
 end  
 
