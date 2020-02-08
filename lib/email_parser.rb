@@ -15,7 +15,7 @@ class EmailAddressParser
   def parse 
     csv_emails.split.collect{|add|
       add.split(',')}
-      add.flatten.uniq
+     csv_emails.flatten.uniq
     end
     
 end  
